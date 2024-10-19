@@ -33,6 +33,7 @@
     "postcss": "^8.4.4",
     "postcss-loader": "^6.2.1",
     "postcss-preset-env": "^7.0.1",
+    "prettier": "^3.3.3",
     "sass": "^1.66.1",
     "sass-loader": "^13.3.2",
     "start-server-and-test": "^2.0.0",
