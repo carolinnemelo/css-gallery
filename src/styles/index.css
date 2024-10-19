@@ -1,3 +1,8 @@
+:root {
+    --white: #fff;
+    --shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+}
 /* .header__buttons {
     display: flex;
     gap: .5rem;
@@ -14,20 +19,32 @@
  .main {
     width: 100vw;
     padding: 0 1rem;
- }
-
+}
+.header__buttons{
+    display: none;
+}
 .cards-container{
-
     align-items: center;
     overflow: hidden;
+    text-align: center;
+}
+
+.card {
+    width: 19.5rem;
+    background-color: var(--white);
+    box-shadow: var(--shadow);
+    height: 35rem;
+    border-radius: .5rem;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .cards-container {
         display: flex;
         flex-wrap: wrap;
-        background-color: blueviolet;
-        gap: 1rem;
+        gap: 1.5rem;
+        justify-content: center;
     }
+
+
 
 }
