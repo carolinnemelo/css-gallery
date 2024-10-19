@@ -11,11 +11,23 @@
     background-color: var(--white);
 
 } */
+ .main {
+    width: 100vw;
+    padding: 0 1rem;
+ }
 
-.section-one {
-    display: flex;
-    flex-direction: column;
+.cards-container{
+
     align-items: center;
-    width: 19.5rem;
     overflow: hidden;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .cards-container {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: blueviolet;
+        gap: 1rem;
+    }
+
 }
