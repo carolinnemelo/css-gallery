@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
+  color: var(--gray-800);
 }
 
 body {
@@ -27,7 +28,11 @@ button:hover, button:focus {
   outline: 0;
   background-color: var(--gray-800);
 }
-  
+
+p {
+  color: var(--gray-600);
+  font-size: .9rem;
+}
 
 @media screen and (min-width: 768px) and (max-width: 1300px) {
   body {

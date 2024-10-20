@@ -19,12 +19,19 @@
 
 .main {
   width: 100vw;
-  padding: 0 2rem;
+  padding: 0 .5rem;
   margin: auto;
-  background-color: red;
+}
+.header__title{
+  padding-top: 1rem;
 }
 
+.header__subtitle{
+  padding: 1rem;
+
+}
 .header__buttons {
+  padding-top: 1rem;
   display: none;
 }
 
@@ -35,8 +42,14 @@
   align-items: center;
   overflow: hidden;
   text-align: center;
+  gap: 1.5rem;
 }
-
+.cards__title {
+  padding: .5rem 0;
+  text-align: start;
+  outline: solid var(--gray-500);
+  width: 100%;
+}
 .card {
   width: 19.5rem;
   height: 32rem;
@@ -96,9 +109,6 @@
         justify-content: center;
         gap: 1.5rem;
       }
-    .main {
-
-    }
     .cards-container{
         display: grid;
         margin: auto;
@@ -106,7 +116,6 @@
         column-gap: 1rem;
         grid-template-columns: repeat(4, 1fr);
         justify-items: center;
-        background-color: violet;
         max-width: 90rem;
 
     }
