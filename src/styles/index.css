@@ -38,11 +38,25 @@
   border-radius: 0.5rem;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1248px) {
+  .header__buttons {
+    display: block;
+  }
   .cards-container {
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
     justify-content: center;
   }
+}
+
+
+@media screen and (min-width: 1248px) {
+    .header__buttons {
+        display: block;
+      }
+    .cards-container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
