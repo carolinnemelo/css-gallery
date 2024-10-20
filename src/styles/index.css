@@ -1,6 +1,4 @@
 :root {
-  --white: #fff;
-  --shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   --color: #8fc866;
   --hover: #66c887;
   --gray-100: hsl(0, 0%, 95%);
@@ -18,7 +16,7 @@
 }
 
 button {
-  color: var(--color);
+  color: var(--gray-900);
   transition: 0.25s;
   padding: .4rem .6rem;
   outline: solid ;
@@ -26,13 +24,20 @@ button {
   border-radius: .3rem;
   background-color: var(--white);
 }
+
 button:hover, button:focus {
-  border-color: var(--hover);
-  color: #fff;
-  box-shadow: inset 7em 0 0 0 var(--hover);
+  color: var(--white);
+  box-shadow: inset 7em 0 0 0 var(--gray-700);
 }
   
 .header__buttons {
+  display: flex;
+  gap: .5rem;
+  justify-content: center;
+}
+
+.header__buttons:hover,
+.header__buttons:hover {
   display: flex;
   gap: .5rem;
   justify-content: center;
