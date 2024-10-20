@@ -1,20 +1,43 @@
 :root {
   --white: #fff;
   --shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
-/* .header__buttons {
-    display: flex;
-    gap: .5rem;
-    justify-content: center;
+  --color: #8fc866;
+  --hover: #66c887;
+  --gray-100: hsl(0, 0%, 95%);
+  --gray-200: hsl(0, 0%, 85%);
+  --gray-300: hsl(0, 0%, 75%);
+  --gray-400: hsl(0, 0%, 65%);
+  --gray-500: hsl(0, 0%, 50%);
+  --gray-600: hsl(0, 0%, 40%);
+  --gray-700: hsl(0, 0%, 30%);
+  --gray-800: hsl(0, 0%, 20%);
+  --gray-900: hsl(0, 0%, 10%);
+  --black: hsl(0, 0%, 0%);
+  --white: hsl(0, 0%, 100%); 
+  
 }
 
-.header__button {
-    padding: .4rem .6rem;
-    border: solid 1px;
-    border-radius: .3rem;
-    background-color: var(--white);
+button {
+  color: var(--color);
+  transition: 0.25s;
+  padding: .4rem .6rem;
+  outline: solid ;
+  border: 0;
+  border-radius: .3rem;
+  background-color: var(--white);
+}
+button:hover, button:focus {
+  border-color: var(--hover);
+  color: #fff;
+  box-shadow: inset 7em 0 0 0 var(--hover);
+}
+  
+.header__buttons {
+  display: flex;
+  gap: .5rem;
+  justify-content: center;
+}
 
-} */
 .main {
   width: 100vw;
   padding: 0 1rem;
