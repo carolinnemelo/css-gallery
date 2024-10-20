@@ -47,7 +47,7 @@
 .cards__title {
   padding: .5rem 0;
   text-align: start;
-  outline: solid var(--gray-500);
+  outline: solid var(--gray-400);
   width: 100%;
 }
 .card {
