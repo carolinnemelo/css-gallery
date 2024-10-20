@@ -92,12 +92,16 @@
 
   }
   .cards-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    row-gap: 1rem;
-    column-gap: 1rem;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: fit-content 1fr 1fr;
+    justify-items: center;
+    max-width: 40rem;
+    margin: auto;
+  }
+  .cards__title {
+    grid-row: 1;
+    grid-column: 1 / 3;
   }
 }
 
