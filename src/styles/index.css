@@ -29,6 +29,7 @@
 }
 
 .cards-container {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -61,7 +62,9 @@
   justify-content: space-between;
   height: 100%;
 }
-
+.card__title {
+  font-size: 1.5rem;
+}
 .card__footer {
   display: flex;
   justify-content: space-between;
@@ -79,22 +82,25 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap: 1rem;
     justify-content: center;
   }
 }
 
 
 @media screen and (min-width: 1360px) {
+
     .header__buttons {
         display: flex;
         justify-content: center;
         gap: 1.5rem;
       }
+    .main {
+      padding: 0;
+    }
     .cards-container{
         display: grid;
-    gap: 1.5rem;
-
         grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
     }
 }
