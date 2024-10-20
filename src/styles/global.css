@@ -15,7 +15,7 @@ body {
 button {
   color: var(--gray-700);
   transition: .4s;
-  padding: .3rem .6rem;
+  padding: .5rem .6rem;
   outline: solid var(--gray-700);
   border: 0;
   border-radius: .2rem;
@@ -34,8 +34,4 @@ p {
   font-size: .9rem;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1300px) {
-  body {
-    background-color: lightblue;
-  }
-}
+
