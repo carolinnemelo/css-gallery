@@ -47,6 +47,11 @@
   object-fit: cover;
 }
 
+.card__footer {
+  display: flex;
+  justify-content: space-between;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1248px) {
   .header__buttons {
     display: flex;
