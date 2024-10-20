@@ -13,19 +13,17 @@
   --box-shadow: 0px 2px 8px 0px rgba(99 99 99 / 20%);
 }
 
-
 .main {
   width: 100vw;
-  padding: 0 .5rem;
+  padding: 0 0.5rem;
   margin: auto;
 }
-.header__title{
+.header__title {
   padding-top: 1rem;
 }
 
-.header__subtitle{
+.header__subtitle {
   padding: 1rem;
-
 }
 .header__buttons {
   padding-top: 1rem;
@@ -40,15 +38,17 @@
   overflow: hidden;
   text-align: center;
   gap: 1rem;
-  padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
 }
+
 .cards__title {
-  padding: 3rem 0 .5rem 0;
+  padding: 3rem 0 0.5rem 0;
   text-align: start;
   border-bottom: solid var(--gray-400);
   width: 19.5rem;
   margin-bottom: 1rem;
 }
+
 .card {
   width: 19.5rem;
   height: 32rem;
@@ -59,7 +59,6 @@
   flex-direction: column;
   text-align: start;
   justify-content: space-between;
-
 }
 
 .card__image {
@@ -67,6 +66,7 @@
   height: 20rem;
   object-fit: cover;
 }
+
 .card__content {
   padding: 1rem;
   display: flex;
@@ -74,10 +74,12 @@
   justify-content: space-between;
   height: 100%;
 }
+
 .card__title {
   padding-top: 1rem;
   font-size: 1.5rem;
 }
+
 .card__footer {
   display: flex;
   justify-content: space-between;
@@ -90,16 +92,14 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1364px) {
-  .header__title{
+  .header__title {
     padding-top: 5rem;
   }
-  
+
   .header__buttons {
     display: flex;
     justify-content: center;
     gap: 1.5rem;
-
-
   }
   .cards-container {
     display: grid;
@@ -116,30 +116,28 @@
   }
 }
 
-
 @media screen and (min-width: 1364px) {
-  .header__title{
+  .header__title {
     padding-top: 5rem;
   }
 
-    .header__buttons {
-        display: flex;
-        justify-content: center;
-        gap: 1.5rem;
-      }
-      .cards__title {
-        width: 98%;
-        grid-row: 1;
-        grid-column: 1 / 5;
-      }
-    .cards-container{
-        display: grid;
-        margin: auto;
-        row-gap: 1rem;
-        column-gap: 1rem;
-        grid-template-columns: repeat(4, 1fr);
-        justify-items: center;
-        max-width: 90rem;
-
-    }
+  .header__buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  .cards__title {
+    width: 98%;
+    grid-row: 1;
+    grid-column: 1 / 5;
+  }
+  .cards-container {
+    display: grid;
+    margin: auto;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    max-width: 90rem;
+  }
 }
