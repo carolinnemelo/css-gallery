@@ -93,7 +93,7 @@
   gap: 1rem;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1364px) {
+@media (768px <= width <= 1364px) {
   .header__title {
     padding-top: 5rem;
   }
@@ -103,6 +103,7 @@
     justify-content: center;
     gap: 1.5rem;
   }
+
   .cards-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -111,6 +112,7 @@
     max-width: 40rem;
     margin: auto;
   }
+
   .cards__title {
     width: 100%;
     grid-row: 1;
@@ -118,7 +120,7 @@
   }
 }
 
-@media screen and (min-width: 1364px) {
+@media (1364px <= width) {
   .header__title {
     padding-top: 5rem;
   }
@@ -128,11 +130,13 @@
     justify-content: center;
     gap: 1.5rem;
   }
+
   .cards__title {
     width: 98%;
     grid-row: 1;
     grid-column: 1 / 5;
   }
+  
   .cards-container {
     display: grid;
     margin: auto;
